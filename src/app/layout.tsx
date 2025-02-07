@@ -58,7 +58,7 @@ export default function RootLayout({
       </head>
       <body
         suppressHydrationWarning
-        className={cn(inter.className, "dark:bg-slate-800 dark:text-slate-200")}
+        className={cn(inter.className, "bg-slate-900 text-slate-200 dark")}
       >
         <div className="min-h-screen">{children}</div>
         <Footer />
