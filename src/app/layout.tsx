@@ -5,6 +5,7 @@ import { Inter } from "next/font/google";
 import cn from "classnames";
 
 import "./globals.css";
+import "prismjs/themes/prism-tomorrow.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
