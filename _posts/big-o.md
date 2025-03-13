@@ -36,7 +36,7 @@ Em termos simples, Big-O expressa a relação entre o número de operações que
 
 ### O(1) - Tempo Constante
 
-```js
+```typescript
 function acessarPrimeiroElemento(array: number[]): number {
   return array[0];
 }
@@ -46,7 +46,7 @@ Não importa o tamanho do array, a função sempre acessa um único elemento, ma
 
 ### O(n) - Tempo Linear
 
-```js
+```typescript
 function somarElementos(array: number[]): number {
   let soma = 0;
   for (const num of array) {
@@ -60,7 +60,7 @@ Aqui, o número de operações cresce proporcionalmente ao tamanho da entrada.
 
 ### O(n^2) - Tempo Quadrático
 
-```js
+```typescript
 function paresPossiveis(array: number[]): void {
   for (let i = 0; i < array.length; i++) {
     for (let j = 0; j < array.length; j++) {

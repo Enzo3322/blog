@@ -16,7 +16,7 @@ Escrever código de qualidade não precisa ser difícil. Pequenos ajustes na sua
 
 Evite nomes genéricos como a, x ou data. Prefira nomes que explicam a intenção da variável, função ou classe.
 
-```js
+```typescript
 // Evite
 function p(d) {
 return d \* 0.9;
@@ -32,7 +32,7 @@ return preco \* 0.9;
 
 Funções devem fazer apenas uma coisa e fazê-la bem. Se sua função está muito grande, provavelmente pode ser dividida em partes menores.
 
-```js
+```javascript
 // Evite
 function processarPedido(pedido) {
   validarPedido(pedido);
@@ -53,7 +53,7 @@ function processarPedido(pedido) {
 
 Código duplicado gera inconsistência e dificulta a manutenção. Utilize funções reutilizáveis para evitar repetição.
 
-```js
+```javascript
 // Evite duplicação
 function calcularDesconto10(preco) {
   return preco * 0.9;
@@ -74,13 +74,15 @@ Ferramentas como ESLint e Prettier ajudam a manter um código consistente e livr
 
 # Instale e configure o ESLint e o Prettier no seu projeto
 
+```bash
 npm install --save-dev eslint prettier
+```
 
 5. Escreva Testes Automatizados
 
 Testes garantem que seu código funciona conforme esperado e evitam problemas ao modificar funcionalidades.
 
-```js
+```javascript
 import { expect } from "vitest";
 
 describe("calcularDesconto", () => {

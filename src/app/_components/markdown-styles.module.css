@@ -46,7 +46,7 @@
 
 .markdown pre {
   padding: 12px;
-  border: 1px solid #eaeaea;
+  background-color: #1e1e1e;
   border-radius: 5px;
   overflow-x: auto;
 }
